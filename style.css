@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+.conten {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0.4)),
+    url(./img/fd.jpg) top center;
+  background-size: cover;
+}
+.header {
+  flex: 0 0 60px;
+}
+.header__img {
+  padding: 10px;
+}
+.logo {
+  object-fit: contain;
+  height: 20px;
+}
+.main {
+  flex: 1 0 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 590px;
+  height: 230px;
+  background: linear-gradient(
+    rgba(187, 187, 187, 0.453),
+    rgba(63, 63, 63, 0.5)
+  );
+
+  border-radius: 15px;
+}
+.form--container--left {
+  margin: 10px;
+}
+.form--container--left h2 {
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+.google,
+.twitter {
+  display: flex;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  padding-right: 15px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 0;
+}
+.registrate {
+  padding-top: 25px;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+.form--container--right {
+  margin: 10px;
+}
+.input--container {
+  padding-bottom: 20px;
+}
+.input {
+  padding-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid;
+}
+.submit {
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
+
+.footer {
+  margin: 0 0 10px 10px;
+}

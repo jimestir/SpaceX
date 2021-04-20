@@ -3,7 +3,8 @@
   box-sizing: border-box;
   padding: 0;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
 }
 .conten {
   display: flex;
@@ -33,8 +34,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 590px;
-  height: 230px;
+  width: 550px;
+  height: 320px;
   background: linear-gradient(
     rgba(187, 187, 187, 0.453),
     rgba(63, 63, 63, 0.5)
@@ -46,8 +47,10 @@
   margin: 10px;
 }
 .form--container--left h2 {
+  margin-bottom: 30px;
   text-align: center;
-  padding: 0 0 10px 0;
+
+  font-size: 2rem;
 }
 .google,
 .twitter {
@@ -64,7 +67,7 @@ a {
   margin: 0 5px 0 0;
 }
 .registrate {
-  padding-top: 25px;
+  margin-top: 30px;
 }
 
 .input::placeholder {
@@ -72,19 +75,22 @@ a {
 }
 .form--container--right {
   margin: 10px;
+  width: 200px;
 }
 .input--container {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .input {
-  padding-bottom: 20px;
-  padding: 10px;
+  width: 100%;
+
+  padding: 15px;
   outline: none;
   background: transparent;
   border: none;
   border-bottom: 2px solid;
 }
 .submit {
+  margin-top: 30px;
   text-align: center;
   padding: 15px;
   width: 100%;
